@@ -17,7 +17,7 @@ export function tickCount(scale, count, minStep) {
   var step;
 
   if (isNumber(count) && minStep != null) {
-    count = Math.min(count, ~~(span(scale.domain()) / minStep) || 1);
+    count = Math.min(count, Math.floor(span(scale.domain()) / minStep) || 1);
   }
 
   if (isObject(count)) {
@@ -94,7 +94,7 @@ export function tickValues(scale, count) {
  */
 function binValues(bins, count) {
   var n = bins.length,
-      stride = ~~(n / (count || n));
+      stride = Math.floor(n / (count || n));
 
   return stride < 2
     ? bins.slice()
