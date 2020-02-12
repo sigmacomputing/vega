@@ -1506,6 +1506,11 @@ d3-array@1, d3-array@^1.1.1:
   resolved "https://registry.yarnpkg.com/d3-array/-/d3-array-2.0.3.tgz#9c0531eda701e416f28a030e3d4e6179ba74f19f"
   integrity sha512-C7g4aCOoJa+/K5hPVqZLG8wjYHsTUROTk7Z1Ep9F4P5l+WVrvV0+6nAZ1wKTRLMhFWpGbozxUpyjIPZYAaLi+g==
 
+d3-array@^2.3.3:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/d3-array/-/d3-array-2.4.0.tgz#87f8b9ad11088769c82b5ea846bcb1cc9393f242"
+  integrity sha512-KQ41bAF2BMakf/HdKT865ALd4cgND6VcIztVQZUTt0+BH3RWy6ZYnHghVXf6NFjt2ritLr8H1T8LreAAlfiNcw==
+
 d3-color@1, d3-color@^1.2.3:
   version "1.2.3"
   resolved "https://registry.yarnpkg.com/d3-color/-/d3-color-1.2.3.tgz#6c67bb2af6df3cc8d79efcc4d3a3e83e28c8048f"
@@ -1610,10 +1615,22 @@ d3-time-format@2, d3-time-format@^2.1.3:
   dependencies:
     d3-time "1"
 
+d3-time-format@^2.2.1:
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/d3-time-format/-/d3-time-format-2.2.2.tgz#187597ffc6a0f37cb36bb7a1d7167cdc887ecda0"
+  integrity sha512-pweL2Ri2wqMY+wlW/wpkl8T3CUzKAha8S9nmiQlMABab8r5MJN0PD1V4YyRNVaKQfeh4Z0+VO70TLw6ESVOYzw==
+  dependencies:
+    d3-time "1"
+
 d3-time@1, d3-time@^1.0.11:
   version "1.0.11"
   resolved "https://registry.yarnpkg.com/d3-time/-/d3-time-1.0.11.tgz#1d831a3e25cd189eb256c17770a666368762bbce"
   integrity sha512-Z3wpvhPLW4vEScGeIMUckDW7+3hWKOQfAWg/U7PlWBnQmeKQ00gCUsTtWSYulrKNA7ta8hJ+xXc6MHrMuITwEw==
+
+d3-time@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/d3-time/-/d3-time-1.1.0.tgz#b1e19d307dae9c900b7e5b25ffc5dcc249a8a0f1"
+  integrity sha512-Xh0isrZ5rPYYdqhAVk8VLnMEidhz5aP7htAADH6MfzgmmicPkTo8LhkLxci61/lCB7n7UmE3bN0leRt+qvkLxA==
 
 d3-timer@1, d3-timer@^1.0.9:
   version "1.0.9"
@@ -5561,10 +5578,80 @@ validate-npm-package-name@^3.0.0:
   dependencies:
     builtins "^1.0.3"
 
+vega-dataflow@^5.4.1:
+  version "5.4.1"
+  resolved "https://registry.yarnpkg.com/vega-dataflow/-/vega-dataflow-5.4.1.tgz#8ed5593bf674577833510e4e659d817132f05aaf"
+  integrity sha512-NZASrIGel2ZD+HiJsozMPO7qNB3INLFWQez6KI+gPpKQIhsz7jWzG/TBK57A8NOLJYPc6VBLiygCmdJbr5E+sA==
+  dependencies:
+    vega-loader "^4.0.0"
+    vega-util "^1.11.0"
+
 vega-datasets@^1.24.1:
   version "1.24.1"
   resolved "https://registry.yarnpkg.com/vega-datasets/-/vega-datasets-1.24.1.tgz#76f5c9f9a69ee0976473d46245a36b4a3e36e195"
   integrity sha512-iuVFUSwhrOoO7A0IJCTDae6S5VnYFQVTKCYBU2sGwlZN9TS6JBQI/q/p1CVKrf92aoW3T/EihsIkf3jAk/rOww==
+
+vega-statistics@^1.6.2:
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/vega-statistics/-/vega-statistics-1.7.0.tgz#b5183e83b56bd2a45b51fb23a89cc7cee00cf6ac"
+  integrity sha512-rsgVXnd8247KYYe5lUBS3mLD0C8hCgKoFOlD4Iolv1eKedZq0FjC+xan9ejQPVV7BlLsuuoYUNuaUOkQXHudcQ==
+  dependencies:
+    d3-array "^2.3.3"
+
+vega-time@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/vega-time/-/vega-time-1.0.0.tgz#5bc61ff311260cd212ccc8cbd73049bcd29b1440"
+  integrity sha512-r0yOFr/VklJwD3ew1+fEcB7E0LBCLChYlwh0KoO6cTIWMdlC4KhIIUN3/FuBfUZ4qx4V/xp71xH2YYYZTH6izg==
+  dependencies:
+    d3-array "^2.3.3"
+    d3-time "^1.1.0"
+    d3-time-format "^2.2.1"
+    vega-util "^1.12.0"
+
+vega-transforms@*, vega-transforms@^4.0.3:
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/vega-transforms/-/vega-transforms-4.5.0.tgz#53d0b453f36c9848e0309ad4db8c30a3ff88bc73"
+  integrity sha512-ajgXTXYLMFZAduQL3rFsBtZcBsCHsGbYy5xJDyFATpNO31e4LkAey4b0D20dPoWwSLaSd+nps8m7HOAqm13rqg==
+  dependencies:
+    d3-array "^2.3.3"
+    vega-dataflow "^5.4.1"
+    vega-statistics "^1.6.2"
+    vega-time "^1.0.0"
+    vega-util "^1.12.0"
+
+vega-util@^1.11.0, vega-util@^1.12.0:
+  version "1.12.0"
+  resolved "https://registry.yarnpkg.com/vega-util/-/vega-util-1.12.0.tgz#fe46198b5294a68d32bedddcc539bb2522de3cba"
+  integrity sha512-eN1PAQVDyEOcwild2Fk1gbkzkqgDHNujG2/akYRtBzkhtz2EttrVIDwBkWqV/Q+VvEINEksb7TI3Wv7qVQFR5g==
+
+vega@5.3.4:
+  version "5.3.4"
+  resolved "https://registry.yarnpkg.com/vega/-/vega-5.3.4.tgz#f83b8825033b723a33e97a7d3bafb904c96d3da3"
+  integrity sha512-MRggn3vQLHI6ahCQ2hHpPQjFclVcGq4UPuBwVtOU6lWBaQJucIzpeHtY7b5BbhSfpE2wIf2wuRDIGEdf//MkIQ==
+  dependencies:
+    vega-crossfilter "^4.0.1"
+    vega-dataflow "^5.2.1"
+    vega-encode "^4.2.2"
+    vega-event-selector "^2.0.0"
+    vega-expression "^2.6.0"
+    vega-force "^4.0.1"
+    vega-functions "^5.2.0"
+    vega-geo "^4.0.1"
+    vega-hierarchy "^4.0.1"
+    vega-loader "^4.0.0"
+    vega-parser "^5.6.2"
+    vega-projection "^1.2.1"
+    vega-runtime "^5.0.1"
+    vega-scale "^4.1.1"
+    vega-scenegraph "^4.1.0"
+    vega-statistics "^1.3.1"
+    vega-transforms "^4.0.3"
+    vega-typings "^0.6.2"
+    vega-util "^1.10.0"
+    vega-view "^5.2.1"
+    vega-view-transforms "^4.3.0"
+    vega-voronoi "^4.0.1"
+    vega-wordcloud "^4.0.2"
 
 verror@1.10.0:
   version "1.10.0"

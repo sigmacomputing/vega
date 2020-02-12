@@ -1,3 +1,3 @@
-declare module 'vega' {
+declare module '@sigmacomputing/vega' {
   export * from 'vega-typings';
 }

@@ -2,7 +2,7 @@
 
 import {extend} from 'vega-util';
 import {transforms} from 'vega-dataflow';
-import * as tx from 'vega-transforms';
+import * as tx from '@sigmacomputing/vega-transforms';
 import * as vtx from 'vega-view-transforms';
 import * as encode from 'vega-encode';
 import * as geo from 'vega-geo';
