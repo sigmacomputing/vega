@@ -25,7 +25,7 @@
   },
   "devDependencies": {
     "vega-crossfilter": "*",
-    "vega-encode": "*",
+    "@sigmacomputing/vega-encode": "*",
     "vega-force": "*",
     "vega-geo": "*",
     "vega-hierarchy": "*",
