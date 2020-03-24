@@ -3464,7 +3464,7 @@
       rem += a.rem;
     });
     agg.slice().sort(compareIndex).forEach(function(a) {
-      set += 't[\'' + a.out + '\']=' + a.set + ';';
+      set += 't[' + $(a.out) + ']=' + a.set + ';';
     });
     set += 'return t;';
 
@@ -17299,7 +17299,7 @@
     resolvefilter: ResolveFilter
   });
 
-  var version = "5.3.4-alpha.7";
+  var version = "5.3.4-alpha.8";
 
   var Default = 'default';
 
