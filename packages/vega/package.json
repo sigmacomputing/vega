@@ -1,6 +1,6 @@
 {
   "name": "@sigmacomputing/vega",
-  "version": "5.3.4-alpha.8",
+  "version": "5.3.4-alpha.9",
   "description": "The Vega visualization grammar.",
   "keywords": [
     "vega",
@@ -28,7 +28,7 @@
     "test": "TZ=America/Los_Angeles tape 'test/**/*-test.js' && eslint index.js test"
   },
   "dependencies": {
-    "@sigmacomputing/vega-transforms": "4.0.3-alpha",
+    "@sigmacomputing/vega-transforms": "4.0.3-alpha.2",
     "@sigmacomputing/vega-encode": "4.2.2-alpha",
     "vega-crossfilter": "^4.0.1",
     "vega-dataflow": "^5.2.1",

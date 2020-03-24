@@ -1,6 +1,6 @@
 {
   "name": "@sigmacomputing/vega-transforms",
-  "version": "4.0.3-alpha",
+  "version": "4.0.3-alpha.2",
   "description": "Data processing transforms for Vega dataflows.",
   "keywords": [
     "vega",
