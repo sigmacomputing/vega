@@ -1,6 +1,6 @@
 {
-  "name": "vega",
-  "version": "5.14.0",
+  "name": "@sigmacomputing/vega",
+  "version": "5.14.0-alpha",
   "description": "The Vega visualization grammar.",
   "keywords": [
     "vega",
