@@ -12,7 +12,8 @@ import * as reg from 'vega-regression';
 import * as voronoi from 'vega-voronoi';
 import * as wordcloud from 'vega-wordcloud';
 import * as xf from 'vega-crossfilter';
-extend(transforms, tx, vtx, encode, geo, force, tree, reg, voronoi, wordcloud, xf);
+import * as label from 'vega-label';
+extend(transforms, tx, vtx, encode, geo, force, tree, reg, voronoi, wordcloud, xf, label);
 
 
 // -- Exports -----

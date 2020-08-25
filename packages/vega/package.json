@@ -40,6 +40,7 @@
     "vega-functions": "~5.7.2",
     "vega-geo": "~4.3.5",
     "vega-hierarchy": "~4.0.7",
+    "vega-label": "^0.0.4",
     "vega-loader": "~4.3.1",
     "vega-parser": "~6.0.2",
     "vega-projection": "~1.4.3",
