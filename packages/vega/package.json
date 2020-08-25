@@ -60,5 +60,6 @@
   },
   "devDependencies": {
     "vega-schema": "*"
-  }
+  },
+  "gitHead": "ba3aa97906e111aa25a1a29692add1e8545e4797"
 }
