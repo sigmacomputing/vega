@@ -37,7 +37,7 @@
     "vega-expression": "~2.6.6",
     "vega-force": "~4.0.5",
     "vega-format": "~1.0.2",
-    "vega-functions": "~5.7.2",
+    "vega-functions": "~5.12.0",
     "vega-geo": "~4.3.5",
     "vega-hierarchy": "~4.0.7",
     "vega-loader": "~4.3.1",
